@@ -1,33 +1,14 @@
-# 📢 GreenName – 绿色聊天名称插件
+# GreenName – 绿色聊天名称插件
 
 **English | 中文**
 
 ---
 
-## 📖 简介 | Introduction
+## 简介 | Introduction
 
 **GreenName** 是一款轻量级的 Paper 插件，允许管理员为玩家设置带有**到期时间**的绿色聊天名称。玩家可以自行使用 `/greenname on/off` 开关这一效果，所有数据基于玩家名存储，完美支持**离线服务器**。插件内置 **12 种语言** 支持，并允许管理员自定义聊天格式。
 
 **GreenName** is a lightweight Paper plugin that allows admins to give players a **green chat name** with an **expiration date**. Players can toggle the effect on/off using `/greenname on/off`. All data is stored by **player name**, making it perfect for **offline-mode servers**. The plugin comes with **12 built-in languages** and allows admins to customize the chat format.
-
----
-
-## 版本 | Version
-
-**Version: v1.0 (Released: 2024-09-05)**
-
-## 更新日志 | Changelog
-
-- 🎉 Initial release | 初始发布
-- ✅ Set green chat name for players (customizable) | 为玩家设置绿色聊天名称（可自定义颜色）
-- ⏰ Support expiration time (in days), auto-expires | 支持到期时间（按天计算），到期自动失效
-- 🔘 Players can toggle on/off with `/greenname` | 玩家可使用 `/greenname on/off` 自行开关
-- 💾 Data stored by player name (lowercase) – ideal for offline-mode servers | 数据基于玩家名（小写）存储，完美适配离线服务器
-- 🌐 12 built-in languages (Chinese, English, Russian, German, French, Spanish, Portuguese, Japanese, Korean, Indonesian, Arabic) | 内置12种语言（中、英、俄、德、法、西、葡、日、韩、印尼、阿拉伯）
-- 🎨 Customizable chat format (supports color code `&`) | 管理员可自定义聊天格式（支持 `&` 颜色代码）
-- 📝 All messages editable via language files | 所有消息可通过语言文件自由修改
-- ⚡ Lightweight, no extra dependencies | 轻量高效，无额外依赖
-- 📦 Compatible with Paper 1.13 ~ 1.21+ (Java 17+) | 兼容 Paper 1.13 ~ 1.21+（Java 17+）
 
 ---
 
@@ -57,7 +38,7 @@
 
 ---
 
-## 📦 命令与权限 | Commands & Permissions
+## 命令与权限 | Commands & Permissions
 
 | 命令 / Command | 说明 / Description | 权限 / Permission | 默认 / Default |
 |---|---|---|---|
@@ -67,9 +48,9 @@
 
 ---
 
-## ⚙️ 配置文件 | Configuration
+## 配置文件 | Configuration
 
-### `config.yml`
+## `config.yml`
 
 ```yaml
 # 语言设置（language name in its own script）
@@ -80,13 +61,13 @@ language: zh
 # 示例/Example: "&a<%s>&d %s"  → 绿色<玩家名>淡紫色 消息
 chat-format: "&a<%s>&d %s"
 ```
-### 语言文件 | Language Files
+## 语言文件 | Language Files
 
 语言文件位于 `plugins/Greenname/language/` 目录，命名格式为 `messages_<lang>.yml`，支持的颜色代码为 `&0-9 &a-f &k-o &r`。管理员可以自由编辑所有提示消息。
 
 Language files are stored in `plugins/Greenname/language/` with naming `messages_<lang>.yml`. Supports color codes `&0-9 &a-f &k-o &r`. Admins can freely edit all messages.
 
-### 支持的语言列表 | Supported Languages
+## 支持的语言列表 | Supported Languages
 
 | 语言代码 | 语言名称 |
 |----------|----------|
@@ -105,7 +86,7 @@ Language files are stored in `plugins/Greenname/language/` with naming `messages
 
 ---
 
-## 📁 数据存储 | Data Storage
+## 数据存储 | Data Storage
 
 所有玩家数据保存在 `plugins/Greenname/data.yml` 中，结构如下：
 
@@ -117,7 +98,7 @@ toggle:
   player1: true
   player2: false
 ```
-## 🚀 安装 | Installation
+## 安装 | Installation
 
 1. 下载 `Greenname.jar`
 2. 将文件放入服务器的 `plugins/` 文件夹
@@ -135,7 +116,7 @@ toggle:
 
 ---
 
-## 🔧 兼容性 | Compatibility
+## 兼容性 | Compatibility
 
 - **服务端 | Server:** Paper 1.13 ~ 1.21+ (Spigot 可能兼容，但未测试)
 - **Java:** 17 或更高 (建议 21)
@@ -143,7 +124,7 @@ toggle:
 
 ---
 
-## 📜 许可 | License
+## 许可 | License
 
 本项目采用 **MIT 许可证**，你可以自由使用、修改和分发。
 
@@ -151,7 +132,7 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 
 ---
 
-## 📧 支持 | Support
+## 支持 | Support
 
 如有问题或建议，请在 GitHub 提交 Issue 或联系作者。
 
@@ -159,4 +140,4 @@ If you have any issues or suggestions, please submit an Issue on GitHub or conta
 
 ---
 
-**感谢使用 GreenName！** | **Thanks for using GreenName!** 😊
+**感谢使用 GreenName！** | **Thanks for using GreenName!** 
