@@ -1,0 +1,17 @@
+prefix: "&a[GreenName]&r"
+
+admin:
+  set:
+    success: "%prefix% &aSet &b%player% &agreen name for &e%days% &adays, auto-enabled."
+    usage: "%prefix% &cUsage: /setgreen <player> <days>"
+    no-permission: "%prefix% &cYou don't have permission!"
+    player-not-online: "%prefix% &cPlayer is not online!"
+    invalid-days: "%prefix% &cDays must be a positive integer!"
+
+player:
+  toggle:
+    on: "%prefix% &aYour green name is now enabled!"
+    off: "%prefix% &cYour green name is now disabled."
+    usage: "%prefix% &eUsage: /greenname on or /greenname off"
+    invalid-arg: "%prefix% &cInvalid argument! Use on or off."
+    expired: "%prefix% &cYour green name has expired, cannot enable! Contact admin."

@@ -1,0 +1,17 @@
+prefix: "&a[GreenName]&r"
+
+admin:
+  set:
+    success: "%prefix% &aУстановлено зеленое имя для &b%player% &aна &e%days% &aдней, автоматически включено."
+    usage: "%prefix% &cИспользование: /setgreen <игрок> <дни>"
+    no-permission: "%prefix% &cУ вас нет прав!"
+    player-not-online: "%prefix% &cИгрок не в сети!"
+    invalid-days: "%prefix% &cКоличество дней должно быть положительным целым числом!"
+
+player:
+  toggle:
+    on: "%prefix% &aВаше зеленое имя включено!"
+    off: "%prefix% &cВаше зеленое имя отключено."
+    usage: "%prefix% &eИспользование: /greenname on или /greenname off"
+    invalid-arg: "%prefix% &cНеверный аргумент! Используйте on или off."
+    expired: "%prefix% &cВаше зеленое имя истекло, невозможно включить! Свяжитесь с администратором."

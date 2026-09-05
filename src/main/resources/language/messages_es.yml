@@ -1,0 +1,17 @@
+prefix: "&a[GreenName]&r"
+
+admin:
+  set:
+    success: "%prefix% &aEstablecido nombre verde para &b%player% &apor &e%days% &adías, activado automáticamente."
+    usage: "%prefix% &cUso: /setgreen <jugador> <días>"
+    no-permission: "%prefix% &c¡No tienes permiso!"
+    player-not-online: "%prefix% &c¡Este jugador no está en línea!"
+    invalid-days: "%prefix% &c¡Los días deben ser un número entero positivo!"
+
+player:
+  toggle:
+    on: "%prefix% &a¡Tu nombre verde ha sido activado!"
+    off: "%prefix% &cTu nombre verde ha sido desactivado."
+    usage: "%prefix% &eUso: /greenname on o /greenname off"
+    invalid-arg: "%prefix% &c¡Argumento inválido! Usa on o off."
+    expired: "%prefix% &cTu nombre verde ha expirado, ¡no se puede activar! Contacta al administrador."

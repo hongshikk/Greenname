@@ -1,0 +1,17 @@
+prefix: "&a[GreenName]&r"
+
+admin:
+  set:
+    success: "%prefix% &aتم تعيين اسم أخضر للاعب &b%player% &aلمدة &e%days% &aأيام، تم التفعيل تلقائيًا."
+    usage: "%prefix% &cالاستخدام: /setgreen <اللاعب> <الأيام>"
+    no-permission: "%prefix% &cليس لديك صلاحية!"
+    player-not-online: "%prefix% &cاللاعب غير متصل!"
+    invalid-days: "%prefix% &cيجب أن تكون الأيام عددًا صحيحًا موجبًا!"
+
+player:
+  toggle:
+    on: "%prefix% &aتم تفعيل اسمك الأخضر!"
+    off: "%prefix% &cتم إلغاء تفعيل اسمك الأخضر."
+    usage: "%prefix% &eالاستخدام: /greenname on أو /greenname off"
+    invalid-arg: "%prefix% &cوسيطة غير صالحة! استخدم on أو off."
+    expired: "%prefix% &cانتهت صلاحية اسمك الأخضر، لا يمكن التفعيل! اتصل بالإداري."

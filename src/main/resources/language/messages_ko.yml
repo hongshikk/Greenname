@@ -1,0 +1,17 @@
+prefix: "&a[GreenName]&r"
+
+admin:
+  set:
+    success: "%prefix% &b%player% &a님에게 &e%days% &a일 동안 초록색 이름을 설정했습니다 (자동 활성화)."
+    usage: "%prefix% &c사용법: /setgreen <플레이어명> <일수>"
+    no-permission: "%prefix% &c권한이 없습니다!"
+    player-not-online: "%prefix% &c해당 플레이어가 온라인 상태가 아닙니다!"
+    invalid-days: "%prefix% &c일수는 양의 정수여야 합니다!"
+
+player:
+  toggle:
+    on: "%prefix% &a초록색 이름이 활성화되었습니다!"
+    off: "%prefix% &c초록색 이름이 비활성화되었습니다."
+    usage: "%prefix% &e사용법: /greenname on 또는 /greenname off"
+    invalid-arg: "%prefix% &c잘못된 인수입니다! on 또는 off를 사용하세요."
+    expired: "%prefix% &c초록색 이름이 만료되어 활성화할 수 없습니다! 관리자에게 문의하세요."

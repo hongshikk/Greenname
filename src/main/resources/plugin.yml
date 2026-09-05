@@ -1,0 +1,20 @@
+name: Greenname
+version: 1.0
+main: com.hongshikaikai.greenname.Greenname
+api-version: '1.21'
+commands:
+  setgreen:
+    description: 设置玩家绿色名称到期时间
+    usage: /setgreen <玩家名> <天数>
+    permission: greennames.admin
+  greenname:
+    description: 开启或关闭自己的绿色名字
+    usage: /greenname on|off
+    permission: greennames.use
+permissions:
+  greennames.admin:
+    description: 管理绿色名称权限
+    default: op
+  greennames.use:
+    description: 使用绿色名称开关权限
+    default: true

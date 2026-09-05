@@ -1,0 +1,17 @@
+prefix: "&a[GreenName]&r"
+
+admin:
+  set:
+    success: "%prefix% &aTelah menetapkan nama hijau untuk &b%player% &aselama &e%days% &ahari, diaktifkan secara otomatis."
+    usage: "%prefix% &cPenggunaan: /setgreen <pemain> <hari>"
+    no-permission: "%prefix% &cAnda tidak memiliki izin!"
+    player-not-online: "%prefix% &cPemain tidak online!"
+    invalid-days: "%prefix% &cHari harus berupa bilangan bulat positif!"
+
+player:
+  toggle:
+    on: "%prefix% &aNama hijau Anda telah diaktifkan!"
+    off: "%prefix% &cNama hijau Anda telah dinonaktifkan."
+    usage: "%prefix% &ePenggunaan: /greenname on atau /greenname off"
+    invalid-arg: "%prefix% &cArgumen tidak valid! Gunakan on atau off."
+    expired: "%prefix% &cNama hijau Anda telah kedaluwarsa, tidak dapat diaktifkan! Hubungi admin."

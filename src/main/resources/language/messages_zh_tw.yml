@@ -1,0 +1,17 @@
+prefix: "&a[GreenName]&r"
+
+admin:
+  set:
+    success: "%prefix% 已為 &b%player% &a設定綠色名稱 &e%days% &a天，並自動開啟。"
+    usage: "%prefix% &c用法: /setgreen <玩家名> <天數>"
+    no-permission: "%prefix% &c你沒有權限！"
+    player-not-online: "%prefix% &c該玩家不在線上！"
+    invalid-days: "%prefix% &c天數必須是正整數！"
+
+player:
+  toggle:
+    on: "%prefix% &a你的綠色名稱已開啟！"
+    off: "%prefix% &c你的綠色名稱已關閉。"
+    usage: "%prefix% &e用法: /greenname on 或 /greenname off"
+    invalid-arg: "%prefix% &c參數錯誤！請使用 on 或 off"
+    expired: "%prefix% &c你的綠色名稱已過期，無法開啟！請聯繫管理員。"

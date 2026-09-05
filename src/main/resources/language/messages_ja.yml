@@ -1,0 +1,17 @@
+prefix: "&a[GreenName]&r"
+
+admin:
+  set:
+    success: "%prefix% &b%player% &aに緑色の名前を &e%days% &a日間設定しました（自動有効化）。"
+    usage: "%prefix% &c使用方法: /setgreen <プレイヤー名> <日数>"
+    no-permission: "%prefix% &c権限がありません！"
+    player-not-online: "%prefix% &cそのプレイヤーはオンラインではありません！"
+    invalid-days: "%prefix% &c日数は正の整数で入力してください！"
+
+player:
+  toggle:
+    on: "%prefix% &a緑色の名前が有効になりました！"
+    off: "%prefix% &c緑色の名前が無効になりました。"
+    usage: "%prefix% &e使用方法: /greenname on または /greenname off"
+    invalid-arg: "%prefix% &c引数が無効です！ on または off を使用してください。"
+    expired: "%prefix% &c緑色の名前の有効期限が切れました。有効にできません！管理者にお問い合わせください。"
