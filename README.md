@@ -50,7 +50,7 @@
 
 ## 配置文件 | Configuration
 
-## `config.yml`
+ `config.yml`
 
 ```yaml
 # 语言设置（language name in its own script）
