@@ -43,8 +43,8 @@
 | 命令 / Command | 说明 / Description | 权限 / Permission | 默认 / Default |
 |---|---|---|---|
 | `/setgreen <玩家名> <天数>` | 设置玩家的绿色名称时长（天）<br>Set a player's green name duration (days) | `greennames.admin` | OP |
-| `/greenname on` | 开启自己的绿色名称<br>Enable your own green name | `greennames.use` | 所有人 (true) |
-| `/greenname off` | 关闭自己的绿色名称<br>Disable your own green name | `greennames.use` | 所有人 (true) |
+| `/greenname on` | 开启自己的绿色名称(仅拥有绿色名称的玩家)<br>Enable your own green name(Only players with an active greenname) | `greennames.use` | 所有人 (true) |
+| `/greenname off` | 关闭自己的绿色名称(仅拥有绿色名称的玩家)<br>Disable your own green name(Only players with an active greenname) | `greennames.use` | 所有人 (true) |
 
 ---
 
