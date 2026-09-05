@@ -1,4 +1,4 @@
-**# GreenName – Green Chat Name Plugin**
+# **GreenName – Green Chat Name Plugin**
 
 ---
 
