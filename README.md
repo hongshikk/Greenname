@@ -118,7 +118,7 @@ toggle:
 
 ## 兼容性 | Compatibility
 
-- **服务端 | Server:** Paper 1.13 ~ 1.21+ (Spigot 可能兼容，但未测试)
+- **服务端 | Server:** 1.13~1.21+(All plugin loader support)
 - **Java:** 17 或更高 (建议 21)
 - **依赖 | Dependencies:** 无 (None)
 
